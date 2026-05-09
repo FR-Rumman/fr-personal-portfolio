@@ -1,4 +1,4 @@
-import {ChevronDown, Facebook, Github, Linkedin} from "lucide-react"
+import {ChevronDown, Download, Facebook, Github, Linkedin} from "lucide-react"
 import {Button} from '@/components/Button'
 import {AnimatedBorderButton} from '@/components/AnimatedBorderButton'
 
@@ -84,7 +84,10 @@ export const Hero = () => {
           <div className="flex flex-wrap gap-4 animate-fade-in">
             <Button size="lg">Contact Me</Button>
             
-            <AnimatedBorderButton/>
+             <AnimatedBorderButton>
+              <download/>
+              Download CV
+            </AnimatedBorderButton>
             </div>
             {/* Social link  */}
             <div className=" flex items-center gap-4 animate-fade-in animation-dealy-400">
