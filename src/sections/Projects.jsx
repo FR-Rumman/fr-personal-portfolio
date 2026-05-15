@@ -32,7 +32,7 @@ const projects =[
     //     tittle: "rumman",
     //     description: " lorem jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
     //     Image: "#",
-    //     tags: ["React", "typescript", "NodeJs" ],
+    //     tags: ["React", "typescript", "NodeJs" ],a
     //     link: "#",
     //     github: "#",
     // },
