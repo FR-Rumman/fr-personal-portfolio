@@ -5,7 +5,8 @@ const navLinks =[
     {href: "#about", label:"About"},
     {href: "#projects", label: "Projects"},
     {href: "#experience", label: "Experience"},
-    {href: "#testimonials", label: "Testimonials"},
+    //{href: "#testimonials", label: "Testimonials"},
+    
     
 
 ]
@@ -52,7 +53,9 @@ export const Navbar = () => {
            
             {/* CAT button */}
             <div className="hidden md:block">
-                <Button size="sm">Contact Me</Button>
+                <Button size="sm">
+                    <a href="#contact">Contact Me</a>
+                </Button>
             </div>
             {/* Mobile Menu Buttom */}
             <button className="md:hidden p-2 text-foreground cursor-pointer" 

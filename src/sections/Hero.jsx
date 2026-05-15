@@ -82,19 +82,27 @@ export const Hero = () => {
               </p>
          </div>
           <div className="flex flex-wrap gap-4 animate-fade-in">
-            <Button size="lg">Contact Me</Button>
+            <Button size="lg">
+              <a href="#contact">Contact Me</a>
+            </Button>
             
              <AnimatedBorderButton>
+             <a
+               href="/Jake_s_Resume.pdf"
+               target="_blank"
+               rel="noopener noreferrer" >       
+              
               <download/>
               Download CV
+                          </a>
             </AnimatedBorderButton>
             </div>
             {/* Social link  */}
             <div className=" flex items-center gap-4 animate-fade-in animation-dealy-400">
               <span className=" text-sm text-muted-foreground">Follow: </span>
               {[
-                {icon: Github, href: "#"},
-                {icon: Linkedin, href:"#"},
+                {icon: Github, href: "https://github.com/FR-Rumman"},
+                {icon: Linkedin, href:"https://www.linkedin.com/in/md-fazla-rabbi-rumman-b51669290/"},
                 {icon: Facebook, href: "#"},
                 
               ].map((social, idx)=>(

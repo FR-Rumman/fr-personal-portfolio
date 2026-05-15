@@ -1,13 +1,5 @@
 const experience = [
-  {
-    period: "2022 - Present",
-    role: "Senior Frontend Engineer",
-    company: "YYYYYYYYYY Ltd",
-    description:
-      "Worked on scalable web applications, improved UI performance, and led frontend development initiatives.",
-    technologies: ["React", "TypeScript", "Next.js", "SQL"],
-    current: true,
-  },
+ 
   {
     period: "2021 - 2022",
     role: "Frontend Developer",
@@ -157,4 +149,4 @@ export const Experience = () => {
       </div>
     </section>
   );
-};q
+};
