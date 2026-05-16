@@ -14,7 +14,7 @@ const projects =[
     {
         tittle: "Bachelor Point",
         description: "Explain Soon",
-        Image: "/public/Bachelor_point.png",
+        Image: "/Bachelor_point.png",
         tags: ["React", "typescript", "NodeJs, CSS" ],
         link: "",
         github: "#",
