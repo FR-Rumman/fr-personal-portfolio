@@ -109,7 +109,7 @@ export const Contact = () => {
               <div>
                 <p className="text-gray-400 text-sm">Email</p>
                 <h3 className="text-xl font-medium">
-                  yourmail@gmail.com
+                  frrumman63@gmail.com
                 </h3>
               </div>
             </div>
