@@ -88,7 +88,7 @@ export const Hero = () => {
             
              <AnimatedBorderButton>
              <a
-               href="/Rumman's CV"
+               href="/Rumman's CV.pdf"
                target="_blank"
                rel="noopener noreferrer" >       
               
